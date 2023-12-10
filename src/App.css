@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: #268e9c;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0;
+}
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.navbar li article {
+  color: white;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sun {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: black;
+}
+
+.content h1 {
+  font-size: 40px;
+  margin-top: 1px;
+}
+
+.content p {
+  font-weight: 100;
+  margin: 20px auto;
+  line-height: 25px;
+}
+
+span {
+  background-color: orange;
+  height: 100%;
+  width: 0%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.product p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #17575d; /* Red color, you can choose your own */
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #2980b9; /* Change background color on hover */
+}
+
+.auth-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 1em auto;
+  overflow-x: hidden;
+}
+
+.auth-form-group {
+  margin-bottom: 20px;
+}
+
+.auth-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.auth-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
